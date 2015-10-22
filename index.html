@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  body{
+    margin: 60px;
+    padding: 30px;
+    background-color: lightblue;
+    color: yellow;
+    line-height: 1.5;
+  }
+  img{
+    border-radius: 40%;
+    border: 10px dotted lightcoral;
+  }
+  p{
+    font-size: 18px;
+    line-height: 0.5;
+  }
+  .heading{
+    color: #4BB94B;
+  }
+  .links{
+    color: #7A72CE;
+  }
+  .jokes li{
+      background-color: lightcoral;
+      margin: 3px;
+      width: 60px;
+      text-align: center;
+      border-radius: 5px;
+  }
+</style>
+    <title>Carrie Zhang's First Website</title>
+</head>
+<body>
+    <h1 class="heading">Code lab</h1>
+    <p>Lansing Code Lab is teaching some pretty cool lesson</p>
+    <p>Let me show you some <strong>examples</strong>!</p>
+    <div>
+        <h3>html lesson one:</h3><img alt="This would've been the kitten to light up your day" height="290" src=
+        "http://dreamatico.com/data_images/kitten/kitten-3.jpg" width="480">
+        <h3>Some of my favorite breeds: (click for a surpurrrise)</h3>
+        <ul class="jokes">
+            <li id='tabby'>Tabby</li>
+            <li id='calico'>Calico</li>
+            <li id='siamese'>Siamese</li>
+        </ul>
+        <h1 class="heading">If you want to check out more kittnes...</h1>
+        <h3><a href="https://www.youtube.com/watch?v=LI7-Cu-9wWM" class="links">Click for
+        warm fuzzy feelings</a></h3>
+    </div>
+    <h3>html lesson two:</h3>
+    <p>Click the links below to figure out my <a href="/Students">fellow
+    coder's</a> favorite color:</p>
+    <ul>
+        <li>
+            <a href="/Students/Michael" class="links">Michael</a>
+        </li>
+        <li>
+            <a href="/Students/Nick" class="links">Nick</a>
+        </li>
+        <li>
+            <a href="/Students/Stuart" class="links">Stuart</a>
+        </li>
+    </ul>
+    <script>
+      document.getElementById('tabby').onclick = function (event) {
+        alert ('Why don’t cats play poker in the jungle? "Too many cheetahs."');
+      }
+      document.getElementById('tabby').onclick = function (event) {
+        alert ('Why don’t cats play poker in the jungle? "Too many cheetahs."');
+      }
+      document.getElementById('calico').onclick = function (event) {
+        alert ('How do cats end a fight? "They hiss and make up."');
+      }
+      document.getElementById('siamese').onclick = function (event) {
+        alert ('If lights run on electricity and cars run on gas, what do cats run on? "Their paws."');
+      }
+    </script>
+</body>
+</html>
